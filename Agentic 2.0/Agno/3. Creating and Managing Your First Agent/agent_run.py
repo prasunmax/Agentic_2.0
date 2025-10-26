@@ -28,8 +28,8 @@ agent = Agent(
 
 # agent.print_response(input="Trending startups and product and Stories from hackernews")
 
-agent.cli_app(stream=True)
+# agent.cli_app(stream=True)
 # Run agent with input="Trending startups and products."
-# response: RunOutput = agent.run(input="Trending startups and products and Stories from Hackernews.")
+response: RunOutput = agent.run(input="Trending startups and products and Stories from Hackernews.")
 # Print the response in markdown format
-# print(response)
+print(response)

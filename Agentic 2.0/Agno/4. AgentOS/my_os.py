@@ -18,6 +18,7 @@ assistant = Agent(
     db=db,
     add_history_to_context=True,
     num_history_runs=3,
+    session_state={"name":"Mayank"}
 )
 
 agent_os = AgentOS(
